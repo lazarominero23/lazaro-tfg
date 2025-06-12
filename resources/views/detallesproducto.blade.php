@@ -37,6 +37,35 @@
         .custom-footer small {
             color: white;
         }
+
+        .carrito-item {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e0e0e0;
+            padding-left: 0.5rem;
+        }
+
+        .carrito-img {
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            border-radius: 4px;
+        }
+
+        .carrito-nombre {
+            font-size: 0.9rem;
+            font-weight: 500;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .carrito-precio {
+            font-size: 0.85rem;
+        }
+
+        .carrito-item form button {
+            min-width: 28px;
+        }
     </style>
 </head>
 <body>
@@ -140,7 +169,6 @@
                     <li class="nav-item"><a class="nav-link" href="{{ route('rutaMostrarProductos') }}">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('rutaMostrarVideojuegos') }}">Videojuegos</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('rutaMostrarMerchandising') }}">Merchandising</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
                 </ul>
             </div>
         </div>
@@ -302,10 +330,9 @@
                         <li><a href="{{ route('rutaMostrarProductos') }}" class="text-white text-decoration-none">Inicio</a></li>
                         <li><a href="{{ route('rutaMostrarVideojuegos') }}" class="text-white text-decoration-none">Videojuegos</a></li>
                         <li><a href="{{ route('rutaMostrarMerchandising') }}" class="text-white text-decoration-none">Merchandising</a></li>
-                    <li><a href="#" class="text-white text-decoration-none">Ofertas</a></li>
-                </ul>
+                    </ul>
+                </div>
             </div>
-        </div>
 
         <!-- Contacto -->
         <div class="col-md-4 mb-3">

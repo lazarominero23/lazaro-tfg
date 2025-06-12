@@ -265,7 +265,9 @@
         <div class="row">
             <!-- Información -->
             <div class="col-md-4 mb-3">
-                <img src="{{ asset('images/proyecto-logo.png') }}" alt="NOEF" style="height: 40px;">
+                <a href="{{ route('rutaIndex') }}">
+                    <img src="{{ asset('images/proyecto-logo.png') }}" alt="NOEF" style="height: 40px;">
+                </a>
                 <p class="small">Tu tienda de confianza para todo lo relacionado con videojuegos y merchandising.</p>
             </div>
 

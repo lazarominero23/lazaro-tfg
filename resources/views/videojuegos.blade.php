@@ -197,7 +197,6 @@
                     <li class="nav-item"><a class="nav-link" href="{{ route('rutaMostrarProductos') }}">Inicio</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('rutaMostrarVideojuegos') }}">Videojuegos</a></li>
                     <li class="nav-item"><a class="nav-link" href="{{ route('rutaMostrarMerchandising') }}">Merchandising</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Ofertas</a></li>
                 </ul>
             </div>
         </div>
@@ -265,7 +264,9 @@
         <div class="row">
             <!-- Información -->
             <div class="col-md-4 mb-3">
-                <img src="{{ asset('images/proyecto-logo.png') }}" alt="NOEF" style="height: 40px;">
+                <a href="{{ route('rutaIndex') }}">
+                    <img src="{{ asset('images/proyecto-logo.png') }}" alt="NOEF" style="height: 40px;">
+                </a>
                 <p class="small">Tu tienda de confianza para todo lo relacionado con videojuegos y merchandising.</p>
             </div>
 
@@ -277,7 +278,6 @@
                         <li><a href="{{ route('rutaMostrarProductos') }}" class="text-white text-decoration-none">Inicio</a></li>
                         <li><a href="{{ route('rutaMostrarVideojuegos') }}" class="text-white text-decoration-none">Videojuegos</a></li>
                         <li><a href="{{ route('rutaMostrarMerchandising') }}" class="text-white text-decoration-none">Merchandising</a></li>
-                        <li><a href="#" class="text-white text-decoration-none">Ofertas</a></li>
                     </ul>
                 </div>
             </div>
