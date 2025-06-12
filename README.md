@@ -75,6 +75,7 @@ Estas son las vistas que componen el flujo de la aplicación:
 
 ## Organización del flujo
 
+```plaintext
 Inicio
  └── Productos
        ├── Detalle Producto
